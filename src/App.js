@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import reactsvg from './assets/react.svg'
+import './App.scss';
+import {languages} from './helper/data'
+import {Card} from './components/card/Card'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <header>
+      <div className='img-container'>
+        <img  src={reactsvg} alt="react" />
+      </div> 
+    </header>
+    <main>
+      <h1>Languages</h1>
+      <article>
+      {
+        languages.map((item,index)=>{
+          return <Card
+            key={index}
+            {...item}
+          />
+        })
+      }
+      </article>
+    </main>
+    </>
   );
 }
 

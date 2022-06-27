@@ -1,0 +1,52 @@
+@import './scss/reset', './scss/variables';
+
+body{
+  background-color: #F4D366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header{
+  div{
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    img{
+      max-width: 330px;
+      height: auto;
+    }
+  }
+}
+
+main{
+  
+  width: 100%;
+  padding: 1rem;
+  background-color: tomato;
+  border-radius: 20px;
+
+  h1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  article{
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 550px){
+  main{
+    width: 500px;
+    article{
+      grid-template-columns: 200px 200px;
+    }
+  }
+    
+}
