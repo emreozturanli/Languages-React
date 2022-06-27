@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Languages-React/static/css/main.09ad753b.css",
+    "main.js": "/Languages-React/static/js/main.ca98e6b5.js",
+    "static/media/php.png": "/Languages-React/static/media/php.c767c5711b90ad735bbf.png",
+    "static/media/python.png": "/Languages-React/static/media/python.40f1d1b14bc2113b7b05.png",
+    "static/media/go.png": "/Languages-React/static/media/go.a0b3b49ab90e11213e6d.png",
+    "static/media/css.png": "/Languages-React/static/media/css.616d011c7fdb34d35b95.png",
+    "static/media/javascript.png": "/Languages-React/static/media/javascript.7f8751632b42a9932c15.png",
+    "static/media/react.svg": "/Languages-React/static/media/react.7b78f5c3c3acf6dd7722fd9c2f83c963.svg",
+    "static/media/java.png": "/Languages-React/static/media/java.a507ef793e957ee9b476.png",
+    "static/media/cpp.png": "/Languages-React/static/media/cpp.c0a0d2fd9fd3519dbdce.png",
+    "index.html": "/Languages-React/index.html",
+    "main.09ad753b.css.map": "/Languages-React/static/css/main.09ad753b.css.map",
+    "main.ca98e6b5.js.map": "/Languages-React/static/js/main.ca98e6b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09ad753b.css",
+    "static/js/main.ca98e6b5.js"
+  ]
+}
